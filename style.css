@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+}
+
+body {
+    background: #e5e5e5;
+}
+
+.container {
+    width: 280px;   
+    margin: 30px auto;
+    background: whitesmoke;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.20);
+}
+
+main {
+    padding: 20px;
+}
+
+header {
+    background: #1B83E2;
+    color: white;
+    padding: 10px;
+    font-size: 8px;
+    text-align: center;
+}
+
+.select, input {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin: 4px 0;
+    margin-bottom: 18px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    appearance: none;
+    border: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+.select:hover, input:hover {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.40);
+    transition: 0.8s;
+}
+
+
+p {
+    font-size: 10px;
+    color: #777777;
+}
+
+button {
+    background: #1B83E2;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+button:active {
+    opacity: 0.8;
+}
+
+span {
+    font-weight: bold;
+}
+
+img {
+    width: 30px;
+}
+
+.container2 {
+    text-align: center;
+    border: 1px solid #1b83e2;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+#seta {
+    margin: 5px 0;
+}
+
+#seta:hover {
+    margin-bottom: 10px;
+    transition: 0.6s;
+}
+
+.currency-value {
+    color: #1b83e2;
+    font-weight: bold;
+    font-size: 12px;
+}
