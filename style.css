@@ -34,7 +34,7 @@ header {
     width: 100%;
     padding: 8px;
     margin: 4px 0;
-    margin-bottom: 18px;
+    margin-bottom: 25px;
     outline: none;
     cursor: pointer;
     border-radius: 5px;
@@ -50,7 +50,7 @@ header {
 
 
 p {
-    font-size: 10px;
+    font-size: 11px;
     color: #777777;
 }
 
@@ -60,7 +60,7 @@ button {
     width: 100%;
     padding: 10px;
     border-radius: 20px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     cursor: pointer;
     border: none;
 }
@@ -89,11 +89,11 @@ img {
 }
 
 #seta {
-    margin: 5px 0;
+    margin: 15px 0;
 }
 
 #seta:hover {
-    margin-bottom: 10px;
+    margin-bottom: 18px;
     transition: 0.6s;
 }
 
