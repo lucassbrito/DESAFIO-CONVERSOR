@@ -32,7 +32,7 @@ converterValores = () => {
             currency: 'EUR' 
         }).format(input/euro)
         textConvertido.innerHTML = 'Euro'
-        imgConvertida.src = "/assets/euros.png"
+        imgConvertida.src = "./assets/euros.png"
     }
 
     if (select === '₿ Bitcoin') {
@@ -41,7 +41,7 @@ converterValores = () => {
             currency: 'BTC' 
         }).format(input/bitcoin)
         textConvertido.innerHTML = 'Bitcoin'
-        imgConvertida.src = "/assets/bitcoin.png"
+        imgConvertida.src = "./assets/bitcoin.png"
     }
 }
 
