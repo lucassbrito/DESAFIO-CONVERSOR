@@ -22,7 +22,7 @@ converterValores = () => {
             currency: 'USD' 
         }).format(input/dolar)
         textConvertido.innerHTML = 'Dólar americano'
-        imgConvertida.src = "/assets/estados-unidos.png"
+        imgConvertida.src = "./assets/estados-unidos.png"
 
     }
 
